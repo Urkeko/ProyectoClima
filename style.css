@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#resultado {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+}
+
+body.lluvioso{
+    background: url('https://i.gifer.com/BX07.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: #000000;
+}
+
+body.soleado {
+    background: url('https://z101digital.com/wp-content/uploads/2019/03/sol-cielo-nubes-17032019-onamet.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: #000000;
+}
+
+body.nevado {
+    background: url('https://i.gifer.com/32cM.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: #000000;
+}
+
+body.nublado {
+    background: url('https://i.makeagif.com/media/11-06-2015/M0u5L1.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: #000000;
+}
+
+#resultado {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+body {
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
