@@ -2,7 +2,7 @@ const ciudadInput = document.getElementById("ciudad")
 const botonBuscar = document.getElementById("buscar")
 const resultado = document.getElementById("resultado")
 
-const apiKey='ba49731e9be89d3ea3ff419ccbecd757';
+const apiKey='';
 const baseUrl ='https://api.openweathermap.org/data/2.5/weather';
 
 
